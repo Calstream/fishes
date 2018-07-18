@@ -1,0 +1,19 @@
+#fish{
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  width: 23px;
+  height: 47px;
+  background-image: url("47h23w.png");
+  animation: moveX 1s steps(3) infinite;
+
+  -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+@keyframes moveX{
+  from{background-position-x:0px;}
+  to{background-position-x:-69px;}
+}
